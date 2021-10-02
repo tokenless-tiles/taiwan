@@ -8,7 +8,7 @@ echo
 
 [[ -n $GEOFABRIK_DOWNLOAD_URL && -n $TARGET ]] || exit 1
 
-# Check if iOSM PBF file is valid on latest action
+# Check if OSM PBF file is valid on latest action
 artifact_url() {
   if [[ -z $REPO ]]; then
     echo Argument REPO is not specified, fail to get OSM PBF file from latest action
