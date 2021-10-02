@@ -1,5 +1,6 @@
 clean:
 	rm index-v1-nogeom.json parents ids
+
 index-v1-nogeom.json:
 	curl -O https://download.geofabrik.de/index-v1-nogeom.json
 

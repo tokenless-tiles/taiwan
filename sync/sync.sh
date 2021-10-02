@@ -1,5 +1,7 @@
 #! /bin/env bash
 
+set -x
+
 while read extract; do
   target=$(tr '/' '.' <<<$extract)
   echo Processing $extract...
